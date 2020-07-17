@@ -1,0 +1,15 @@
+#Disable batch job's auto start
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  batch:
+    job:
+      enabled: false
+    initialize-schema: always
+#  datasource:
+#    #hikari:
+#    #driver-class-name: oracle.jdbc.OracleDriver
+#    driverClassName: oracle.jdbc.OracleDriver
+#    url: jdbc:oracle:thin:@localhost:1521:XE
+#    username: JUGDEMO
+#    password: DEMO2020
